@@ -11,7 +11,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="查找网络"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ZerotierFix"
@@ -28,7 +28,8 @@
 
         <activity
             android:name=".ui.NetworkListActivity"
-            android:label="@string/app_name"
+            android:label="查找网络"
+            android:excludeFromRecents="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
